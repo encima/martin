@@ -40,7 +40,9 @@ export default {
 
 body {
   background-color: #00796B;
-  color: #212121;
+  color: #fff;
+  line-height: 1.6 !important;
+  letter-spacing: 3px !important;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -57,6 +59,13 @@ body {
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
+.annimg {
+  border-radius: 50%;
+  border: grey 5px solid;
+  border-color: #fff;
+}
+
 
 @keyframes shake {
   10%, 90% {
