@@ -72,8 +72,14 @@ a {
   color: #42b983;
 }
 .hello {
-    max-width: 60%;
-    padding-left:40%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .hello {
+    min-width: 100%;
+  }
 }
 .card {
     background-color: #ff79ff;
